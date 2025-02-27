@@ -7,9 +7,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node modules
 node_modules
+
+# Package lock file (for npm)
+package-lock.json
+
+# Yarn lock file (if using Yarn)
+yarn.lock
+
+# pnpm lock file (if using pnpm)
+pnpm-lock.yaml
+
+# Build output
 dist
 dist-ssr
+
+# Local files
 *.local
 
 # Editor directories and files
@@ -17,6 +31,8 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# Windows files
 *.suo
 *.ntvs*
 *.njsproj
